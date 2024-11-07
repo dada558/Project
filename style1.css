@@ -1,0 +1,282 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+h1{
+    font-size: 52px;
+    position: absolute;
+    color: black;
+    left: 43%;
+}
+
+.block{
+    border-radius: 10px;
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    background-color: orangered;
+    left: 48%; 
+    top: 0%;
+    z-index: -1;
+}
+.h2{
+    color:white;
+    left: 48%;
+}
+
+.romb1{
+    width: 30px;
+    height: 30px;
+    background-color: orangered;
+    rotate: 45deg;
+    position: absolute;
+    top: 5%;
+    left: 35%;
+}
+
+.romb2{
+    width: 30px;
+    height: 30px;
+    background-color: orangered;
+    rotate: 45deg;
+    position: absolute;
+    top: 5%;
+    left: 38%;
+}
+
+.romb3{
+    width: 30px;
+    height: 30px;
+    background-color: orangered;
+    rotate: 45deg;
+    position: absolute;
+    top: 5%;
+    left: 41%;
+}
+
+.romb4{
+    width: 30px;
+    height: 30px;
+    background-color: orangered;
+    rotate: 45deg;
+    position: absolute;
+    top: 5%;
+    left:150%;
+}
+
+.romb5{
+    width: 30px;
+    height: 30px;
+    background-color: orangered;
+    rotate: 45deg;
+    position: absolute;
+    top: 5%;
+    left: 180%;
+}
+
+.romb6{
+    width: 30px;
+    height: 30px;
+    background-color: orangered;
+    rotate: 45deg;
+    position: absolute;
+    top: 5%;
+    left: 210%;
+}
+
+
+.secrech{
+    width: 220px;
+    height: 30px;
+    position: absolute;
+    top:5%;
+    left:41%;
+    border-radius: 20px;
+}
+
+.block2{
+    width: 700px;
+    height: 1000px;
+    border: 4px solid black;
+    border-left: 4px dashed black;
+    position: absolute;
+    left: 10%;
+    top: 15%;
+    padding-top: 50px ;
+}
+
+.li{
+    background-color: orangered;
+    color: white;
+    width: 200px;
+    height: 40px;
+    margin-left: 40%;
+    margin-top: 40px;
+    border-radius: 10px;
+    list-style: none;
+    text-align: center;
+    padding-top: 8px;
+    border: 4px solid black;
+}
+
+.h3{
+    margin-bottom: 30px;
+    background-color: orangered;
+    border-radius: 10px;
+    border: 4px solid black;
+    color: white;
+    margin-bottom: 40px;
+    position: absolute;
+    top: 0px;
+}
+
+.block3{
+    border: 4px solid black;
+    width: 1499px;
+    height: 1000px;
+    border: 4px solid black;
+    border-right: 4px dashed black;
+    position: absolute;
+    left: 39%;
+    top: 15%;
+    padding-top: 50px ;
+    text-align: center;
+    padding-left: 40px;
+}
+
+.h4{
+    font-size: 50px;
+    background-color: orangered;
+    width:fit-content;
+    border-radius: 10px;
+    border: 4px solid black;
+    color: white;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+}
+
+.h5{
+    font-size: 40px;
+    width: fit-content;
+    color: black;
+}
+
+.h6{
+    width: fit-content
+}
+
+.img1{
+    width: 20px;
+    height: 20px;
+    left: 0;
+    position: absolute;
+    top: 40.3%
+}
+.img2{
+    width: 20px;
+    height: 20px;
+    left: 0;
+    position: absolute;
+    top: 37.7%;
+}
+.img3{
+    width: 20px;
+    height: 20px;
+    left: 0;
+    position: absolute;
+    top: 34.9%;
+}
+.img4{
+    width: 20px;
+    height: 20px;
+    left: 0;
+    position: absolute;
+    top: 32.1%;
+}
+.img5{
+    width: 20px;
+    height: 20px;
+    left: 0;
+    position: absolute;
+    top: 29.3%;
+}
+.img6{
+    width: 20px;
+    height: 20px;
+    left: 0;
+    position: absolute;
+    top: 26.5%;
+}
+.img7{
+    width: 20px;
+    height: 20px;
+    left: 0;
+    position: absolute;
+    top: 23.7%;
+}
+.img8{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    top: 20.9%;
+}
+.img9{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    top: 43.1%;
+}
+.img10{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    top: 10.1%;
+}
+.img11{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    top: 18.1%;
+}
+.img12{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    top: 15.3%;
+}
+.img13{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    top: 12.7%;
+}
+
+.h7{
+    font-size: medium;
+}
+
+.block4{
+    margin-left: 500px;
+    width: 800px;
+    height:900px;
+    border: 4px solid black;
+    margin-top: 0;
+    position: absolute;
+    top: 100px;
+    padding-top: 100px;
+}
+
+.h8{
+    position: absolute;
+    top:0;
+}
