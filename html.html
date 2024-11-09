@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сортировка массива</title>
+</head>
+<body>
+    <h1>Сортировка массива</h1>
+
+    <p id="original-array"></p>
+    <p id="ascending-array"></p>
+    <p id="descending-array"></p>
+
+    <script>
+        // Исходный массив
+        let arr = [-5, 10, 35, 12, 66, -20, 18, 0, 0, 0, 35, 100.5];
+
+        // Выводим исходный массив на страницу
+        document.getElementById('original-array').textContent = 'Исходный массив: ' + JSON.stringify(arr);
+
+        // Сортировка по возрастанию
+        let arrAscending = [...arr].sort((a, b) => a - b);
+        document.getElementById('ascending-array').textContent = 'Массив, отсортированный по возрастанию: ' + JSON.stringify(arrAscending);
+
+        // Сортировка по убыванию
+        let arrDescending = [...arr].sort((a, b) => b - a);
+        document.getElementById('descending-array').textContent = 'Массив, отсортированный по убыванию: ' + JSON.stringify(arrDescending);
+    </script>
+</body>
+</html>
